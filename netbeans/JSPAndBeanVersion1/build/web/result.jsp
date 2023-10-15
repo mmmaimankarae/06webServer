@@ -1,7 +1,5 @@
-<%-- 
-    Document   : result
-    Created on : Oct 10, 2015, 10:13:17 PM
-    Author     : sarun
+<%-- "add ข้อมูลลงในObject of Student" 
+        เขียนCode by JavaBeans
 --%>
 
 <%@page import="model.Student"%>

@@ -1,9 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : Jul 18, 2013, 10:11:01 PM
-    Author     : svd12115
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

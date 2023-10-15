@@ -12,6 +12,9 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <%-- 
+            javacode ภายใต้tag h1 (HTML)
+        --%>
         <h1><% out.println("Hello World");%></h1>
     </body>
 </html>

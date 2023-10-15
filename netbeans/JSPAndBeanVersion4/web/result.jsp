@@ -1,10 +1,5 @@
+<%-- "Standard Tag" --%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%-- 
-    Document   : result
-    Created on : Oct 10, 2015, 10:20:52 PM
-    Author     : sarun
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -32,7 +27,6 @@
             <c:forEach var="i" begin="1" end="10" step="1">
                 ${i}
                 <br/>
-            </c:forEach>  
-          
+            </c:forEach>     
     </body>
 </html>

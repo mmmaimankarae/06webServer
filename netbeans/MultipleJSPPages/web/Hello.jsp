@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Hello
-    Created on : Sep 7, 2014, 9:40:40 PM
-    Author     : svd12115
---%>
+<%-- "if user have string" --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

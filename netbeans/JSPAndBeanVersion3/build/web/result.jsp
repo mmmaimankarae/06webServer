@@ -1,8 +1,4 @@
-<%-- 
-    Document   : result
-    Created on : Oct 10, 2015, 10:20:52 PM
-    Author     : sarun
---%>
+<%-- "Expression Language" --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -14,6 +10,7 @@
         <jsp:setProperty name="student" property="*" />    
     </head>
     <body>
+        <%-- ${}nameofBeans.peoperty} --%>
         ID: ${student.id}
         <br/>
         Name: ${student.name}

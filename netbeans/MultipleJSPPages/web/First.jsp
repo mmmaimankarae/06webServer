@@ -1,8 +1,4 @@
-<%-- 
-    Document   : First
-    Created on : Sep 7, 2014, 9:24:04 PM
-    Author     : svd12115
---%>
+<%-- "Action, when clicked submit" --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -12,16 +8,22 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <%-- Scripting: Declaration --%>
         <%if (!request.getParameter("userName").equals(""))
         {
         %>
+        
+        <%-- Include Directive --%>
         <%@include file="index.jsp"%>
+        
+        <%-- Include Action (แสดงหน้าpage เดิม + page Hello) --%>
         <jsp:include page="Hello.jsp"/>
         <%
         }
         else 
          {
         %>
+        <%-- Forward Action (ส่งต่อไปpage อื่น) --%>
         <jsp:forward page="Error.jsp"/>
         <% } %>
     </body>

@@ -1,8 +1,4 @@
-<%-- 
-    Document   : result
-    Created on : Jul 22, 2011, 7:29:00 PM
-    Author     : sarun
---%>
+<%-- circle choice (can choose only one) --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

@@ -1,8 +1,4 @@
-<%-- 
-    Document   : result
-    Created on : Jul 22, 2011, 8:32:49 PM
-    Author     : sarun
---%>
+<%-- dropdown choice --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

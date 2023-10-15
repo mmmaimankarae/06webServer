@@ -1,8 +1,4 @@
-<%-- 
-    Document   : index
-    Created on : Sep 7, 2014, 9:22:55 PM
-    Author     : svd12115
---%>
+<%-- "Home Page" --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

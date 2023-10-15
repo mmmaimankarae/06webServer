@@ -1,8 +1,4 @@
-<%-- 
-    Document   : result
-    Created on : Jul 22, 2011, 8:36:36 PM
-    Author     : sarun
---%>
+<%-- list choice (with image click) --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

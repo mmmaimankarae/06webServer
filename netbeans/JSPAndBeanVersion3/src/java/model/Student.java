@@ -1,15 +1,6 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package model;
-
-/**
- *
- * @author sarun
- */
+/* JavaBeans */
 public class Student {
-
     private int id;
     private String name;
     private double gpa;
@@ -22,7 +13,6 @@ public class Student {
         this.gpa = gpa;
     }
 
-
     public String getName() {
         return name;
     }
@@ -31,7 +21,6 @@ public class Student {
         this.name = name;
     }
 
-
     public int getId() {
         return id;
     }
@@ -39,5 +28,4 @@ public class Student {
     public void setId(int id) {
         this.id = id;
     }
-
 }

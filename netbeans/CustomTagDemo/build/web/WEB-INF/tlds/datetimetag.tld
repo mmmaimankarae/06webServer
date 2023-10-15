@@ -1,3 +1,4 @@
+<!-- "ส่วนที่เรียกใช้ข้อมูลเกี่ยวกับTag" -->
 <?xml version="1.0" encoding="UTF-8"?>
 <taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
   <tlib-version>1.0</tlib-version>
@@ -21,8 +22,11 @@
       </listener>
     -->
   <tag>
-    <name>DateTime</name>
-    <tag-class>mytag.DateTimeTagHandler</tag-class>
-    <body-content>scriptless</body-content>
+      <!-- "ชื่อTag" -->
+      <name>DateTime</name>
+      <!-- "ตำแหน่งของClass" -->
+      <tag-class>mytag.DateTimeTagHandler</tag-class>
+      <!-- "ชื่อTag" -->
+      <body-content>scriptless</body-content>
   </tag>
 </taglib>

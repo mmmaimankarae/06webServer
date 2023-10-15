@@ -1,9 +1,3 @@
-<%-- 
-    Document   : result
-    Created on : Oct 15, 2014, 10:57:19 AM
-    Author     : svd12115
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -13,7 +7,6 @@
     </head>
     <body>
         <%
-            
             if (request.getParameter("button1") != null) {
                 out.print("Button1 is pushed");
             }

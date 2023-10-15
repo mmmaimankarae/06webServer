@@ -1,8 +1,4 @@
-<%-- 
-    Document   : index
-    Created on : Jul 22, 2011, 6:56:54 PM
-    Author     : sarun
---%>
+<%-- squre choice (can choose more one) --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

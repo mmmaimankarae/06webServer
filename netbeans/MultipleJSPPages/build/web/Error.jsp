@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Error
-    Created on : Sep 7, 2014, 10:07:56 PM
-    Author     : svd12115
---%>
+<%-- "if username is space" --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -13,7 +9,7 @@
     </head>
     <body>
         <h3>Input is not valid! Enter your name please</h3>
+        <%-- Include Action (แสดงหน้าpage เดิม + ให้กรอกชื่อใหม่) --%>
         <%@ include file ="index.jsp"%>
-
     </body>
 </html>
